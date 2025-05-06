@@ -1,4 +1,6 @@
 .conteiner{
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 96%;
     height: 80%;
     display: flex;
@@ -17,8 +19,14 @@ table{
 }
 
 td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
     text-align: center;
-    color: rgba(97, 85, 60, 0.1 );
+    color: #080808e8;
+}
+
+td:hover{
+    color: blue;
 }
 
 

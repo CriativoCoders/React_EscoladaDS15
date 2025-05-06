@@ -2,6 +2,7 @@
  import { BarraNavegacao } from "./Componentes/BarraNavegacao";
  import { Cabecalho } from "./Componentes/Cabecalho";
  import { Conteudo } from "./Componentes/Conteudo";
+import { Rodape } from "./Componentes/Rodape";
 
 
  function App(){
@@ -10,6 +11,7 @@
       <BarraNavegacao/>
       <Cabecalho/>
       <Conteudo/>
+      <Rodape/>
       </>
 
   )

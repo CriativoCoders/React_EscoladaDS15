@@ -1,8 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .conteiner{
     display: flex;
     justify-content: center;
     height: 40px;
-    background-color: rgba(251, 152, 60, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 ul{
@@ -21,6 +25,10 @@ li{
     color: rgba(236, 233, 228,);
     font-size: 16px;
     font-family: Verdana, Gevana, Tohama, sans-serif;
+}
+
+li:hover{
+    color: rgb(0, 17, 255);
 }
 
 li a.active{
